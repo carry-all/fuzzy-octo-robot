@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : fuzzy-octo-robot : fuzzy-octo-robot-1.0.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/fuzzy-octo-robot</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="fuzzy-octo-robot-1.0.war">
+      <element id="javaee-facet-resources" facet="fuzzy-octo-robot/web/Web Gradle : fuzzy-octo-robot-1.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fuzzy-octo-robot" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-web:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-config:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-core:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.1.3" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/fuzzy-octo-robot/exploded/fuzzy-octo-robot-1.0.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
