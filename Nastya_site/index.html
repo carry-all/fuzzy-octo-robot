@@ -1,0 +1,31 @@
+<html>
+<head><title>The first HTML page</title></head>
+<body bgcolor="#8bbdfa">
+	<center><!--чтобы все содержимое нашего сайта было размещено по центру страницы.-->
+		<table width="1000" height="600"><!--зададим размеры таблицы. Ширину таблицы сделаем 1000 пикселей.высота 600.-->
+		<!--таблица, в которой в первой строке будет 1 ячейка, а в другой строке будет 3 ячейки-->
+		<tr> 
+			<td colspan="3" bgcolor="#00CC99" width="1200" height="120"><img src="shapka.jpg" width="1000" height="120"><!--параметр colspan="2". Этот параметр как бы говорит, какого размера должна быть ячейка. В данном случае ячейка должна быть шириной в 2 ячейки. bgcolor- заливает область шапки цветом. img вставляет в шапку таблицы рисунок--></td>
+		</tr>
+		<tr> 
+			<td bgcolor="#CCCCCC" width="75" background="008.jpg" valign="top"><!--Здесь будет меню.bgcolor заливает часть таблицы отведенную плд шапку цвветом.Задний план меню "зальем" фоном.--> 
+			<!--Теперь надо сделать текст меню в виде кнопок-->
+			<form action="Page_1.html">
+			<input type="submit" name="Button1" value="The hedgehog" />
+			</form>
+			<form action="Page_2.html">
+			<input type="submit" name="Button2" value="The panda" /></form>
+			</td>
+			<td width="700" valign="top"><FONT COLOR=white> Welcome to my page</FONT><!--функция FONT в приведенном виде отвечает за смену цвета у текста, который разположен после <FONt...>-->
+			</td>
+			<td bgcolor="#CCCCCC" background="009.jpg" width="75" >
+			</td>
+			<!--Здесь будет содержимое страницы--> 
+		</tr>
+		</table>
+	Tonight is a wonderful day<br>Congratulations!
+	</center>
+</body>
+</html>
+<!-- почему не распознает русский язык - дело в браузере?-->
+<!--как масштабировать картинку под размер экрана -->
